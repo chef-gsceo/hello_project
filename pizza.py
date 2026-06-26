@@ -4,7 +4,7 @@ message_hate = 'Actually I hate pizza.'
 message_like = 'I like pizza'
 
 for el in pizza:
-    print(f"{message_like}, {el.title()}")
+    print(f"{message_like} {el.title()}.")
 
 print(message_hate)
 

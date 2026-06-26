@@ -13,7 +13,7 @@ cubes = []
 for n in range(1,11):
     cube = n ** 3
     cubes.append(cube)
-    print(cube)
+print(cubes)
 
 cubers = [i ** 3 for i in range(1,11)]
 print(cubers)
