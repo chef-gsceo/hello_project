@@ -40,11 +40,14 @@ if username == 'Chef':
     print('true')
 else:
     print('false')
-
-if username.lower() == 'chef' and username.upper() == 'CHEF':
+#
+# ИГНОР РЕГИСТРА
+#
+if username.lower() == 'chef':
     print('true')
 else:
     print('false')
+
 
 if userage == 23:
     print('true')
@@ -76,7 +79,7 @@ if userage <= 23:
 else:
     print('false')
 
-if username == 'Chef' and userage >= 18:
+if username == 'Chef' and userage >= 23:
     print('true')
 else:
     print('false')
